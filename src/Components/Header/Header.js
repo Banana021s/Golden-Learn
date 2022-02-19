@@ -1,7 +1,7 @@
 import "./Header.css"
 
 function Header() {
-    return <header></header>
+    return <header className="Header"></header>
 }
 
 export default Header
