@@ -1,6 +1,7 @@
 .Header {
     position: relative;
     min-height: 100vh;
+    display: flex;
 }
 .Header::before {
     content: '';
@@ -24,4 +25,11 @@
     background: linear-gradient(to bottom, rgba(0,0,0,0) , var(--dark-900) 70%);
     opacity: 0.7;
     z-index: 0;
+}
+.Header > * {
+    z-index: 1;
+}
+.container {
+    width: 100%;
+    padding: 20px 50px;
 }

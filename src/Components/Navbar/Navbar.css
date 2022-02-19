@@ -1,0 +1,11 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.Nav-logo {
+    font-size: 3rem;
+    color: var(--gold-400);
+}
+.Nav-logo span {
+    color: var(--dark-800);
+}

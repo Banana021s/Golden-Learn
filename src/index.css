@@ -4,13 +4,15 @@
 
 :root {
   --dark-900: #090812;
+  --dark-800: #464743;
+  --gold-400: #EEC423;
+
   /* fonts */
   --Caveat: 'Caveat', cursive;
   --Comfortaa: 'Comfortaa', cursive;
 }
 
-* {
-  font-family: 'Caveat', cursive;
+*, body {
   font-family: 'Comfortaa', cursive;
 }
 
