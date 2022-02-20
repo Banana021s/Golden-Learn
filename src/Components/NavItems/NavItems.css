@@ -1,12 +1,23 @@
 .Navbar-nav {
     display: flex;
-    column-gap: 40px;
+    column-gap: 50px;
 }
 .Nav-item {
-
+    color: var(--white-400);
+    transition: .5s ease;
+}
+.Nav-item:hover, .Nav-item:hover a svg path {
+    color: var(--gold-400);
+    stroke: var(--gold-400);
 }
 .Nav-item a {
     text-decoration: none;
-    color: var(--white-400);
+    color: inherit;
     font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.Nav-item a svg path {
+    stroke: var(--white-400);
 }
