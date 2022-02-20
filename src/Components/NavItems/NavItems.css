@@ -1,10 +1,24 @@
 .Navbar-nav {
     display: flex;
     column-gap: 50px;
+    align-items: center;
 }
 .Nav-item {
     color: var(--white-400);
-    transition: .5s ease;
+}
+.Nav-item:nth-child(2) a {
+    background: var(--dark-850);
+    border: 1px solid var(--dark-800);
+    padding: 12px 22px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 8px 24px;
+    border-radius: 30px;
+}
+.Nav-item:nth-child(2):hover a {
+    background: var(--gold-400);
+    color: var(--dark-900);
+}
+.Nav-item:nth-child(2):hover a svg path {
+    stroke: var(--dark-900);
 }
 .Nav-item:hover, .Nav-item:hover a svg path {
     color: var(--gold-400);
@@ -17,6 +31,7 @@
     display: flex;
     align-items: center;
     column-gap: 10px;
+    transition: .4s;
 }
 .Nav-item a svg path {
     stroke: var(--white-400);
