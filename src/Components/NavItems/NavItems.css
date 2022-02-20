@@ -1,0 +1,12 @@
+.Navbar-nav {
+    display: flex;
+    column-gap: 40px;
+}
+.Nav-item {
+
+}
+.Nav-item a {
+    text-decoration: none;
+    color: var(--white-400);
+    font-size: 1.4rem;
+}

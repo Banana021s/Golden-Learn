@@ -1,6 +1,7 @@
 .Navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .Nav-logo {
     font-size: 3rem;
