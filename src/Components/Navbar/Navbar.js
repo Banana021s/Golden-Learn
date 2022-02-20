@@ -2,13 +2,11 @@ import "./Navbar.css"
 import NavItems from "./../NavItems/NavItems"
 import { Profile, HambergerMenu, Login, ChartSuccess } from "iconsax-react"
 
-function Navbar() {
-    const titles = [ "Home", "Courses", "Blog", "Contact us" ]
-    
+function Navbar(props) {
     return (
         <nav className="Navbar">
             <h1 className="Nav-logo Caveat-font">Golden <span>Learn</span> </h1>
-            <NavItems titles={titles} />
+            <NavItems titles={props.titles} />
             <div className="Navbar-details">
                 <button className="user-dropdown-btn"> 
                     <Profile color="#cdcdcd" variant="Broken" size={28}/>
