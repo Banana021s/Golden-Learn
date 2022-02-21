@@ -30,7 +30,7 @@ function Header() {
 
                         <div className="search-group">
                             <SearchNormal1 size="40" color="#ffffff" variant="Broken"/>
-                            <input type="text" className="search-input" placeholder="let's learn something" />
+                            <input type="text" className="search-input" placeholder="let's learn something" spellCheck="false" />
                             <button className="enter-search-btn">Enter</button>
                         </div>
 
