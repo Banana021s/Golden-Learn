@@ -177,3 +177,16 @@
 .enter-search-btn:hover {
     background: var(--gold-400);
 }
+.mouse-cursor {
+    margin: 50px auto 0 auto;
+    margin-top: 50px;
+    animation: mouse-cursor .8s ease-in infinite alternate;
+}
+@keyframes mouse-cursor {
+    from {
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(15px);
+    }
+}

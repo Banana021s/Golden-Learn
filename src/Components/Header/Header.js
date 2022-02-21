@@ -1,7 +1,7 @@
 import "./Header.css"
 import Navbar from './../Navbar/Navbar'
 import logo from "./logo.png"
-import { Bag2, SearchNormal1 } from "iconsax-react"
+import { Bag2, SearchNormal1, Mouse } from "iconsax-react"
 import github from "./github.svg"
 
 function Header() {
@@ -33,6 +33,11 @@ function Header() {
                             <input type="text" className="search-input" placeholder="let's learn something" />
                             <button className="enter-search-btn">Enter</button>
                         </div>
+
+                        <span className="mouse-cursor">
+                            <Mouse size="32" color="#ffffff" variant="Broken"/>
+                        </span>
+                        
                     </div>
                 </div>
             </div>
