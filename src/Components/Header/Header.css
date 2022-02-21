@@ -142,3 +142,38 @@
 .github-btn:hover {
     filter: brightness(0.8);
 }
+.search-group {
+    margin-top: 50px;
+    width: 100%;
+    height: 65px;
+    border-radius: 25px;
+    background: var(--dark-850);
+    border: 1px solid var(--dark-800);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 8px 24px;
+}
+.search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 20px;
+    font-size: 1.1rem;
+    color: var(--white-100);
+}
+.enter-search-btn {
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    background: var(--white-100);
+    transition: .4s;
+}
+.enter-search-btn:hover {
+    background: var(--gold-400);
+}
