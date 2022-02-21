@@ -40,6 +40,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    column-gap: 50px;
+    margin-left: 70px;
 }
 .Header-logo-wrap {
     position: relative;
@@ -73,4 +75,70 @@
 .Header-logo-box img {
     width: 100%;
     height: 100%;
+}
+.Header-titles {
+    width: 50%;
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+}
+.Header-logo-title {
+    font-family: var(--Caveat);
+    font-size: 4.5rem;
+    color: var(--white-100);
+    text-transform: capitalize;
+}
+.Header-logo-title span, .Header-logo-title-desc span:first-child {
+    color: var(--gold-400);
+}
+.Header-logo-title-desc {
+    font-family: var(--Caveat);
+    font-size: 3rem;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color: var(--white-100);
+}
+.Header-logo-title-desc span:last-child {
+    color: var(--dark-780);
+}
+.Header-btns {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+.see-all-courses-btn {
+    width: 250px;
+    padding: 15px 0;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--gold-400);
+    text-transform: capitalize;
+    color: var(--dark-900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    transition: .4s;
+    text-decoration: none;
+}
+.see-all-courses-btn:hover {
+    filter: brightness(0.8);
+}
+.github-btn {
+    width: 54px;
+    border: 1px solid var(--dark-780);
+    background-color: var(--dark-800);
+    color: var(--white-100);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    border-radius: 100%;
+    transition: .4s;
+}
+.github-btn:hover {
+    filter: brightness(0.8);
 }
