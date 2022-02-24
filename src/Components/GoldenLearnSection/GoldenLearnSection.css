@@ -1,16 +1,23 @@
-.container {
-    width: 100%;
-    max-width: 1920px;
-    padding: 20px 70px;
+.golden-learn-section {
+    margin-top: 25px;
 }
 .goldenlearn-q-title {
     color: var(--dark-500);
 }
 .goldenlearn-title {
     color: var(--white-100);
-    font-size: 1.7rem;
-    margin-top: 10px;
+    font-size: 1.8rem;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
 }
 .goldenlearn-title span {
     color: var(--gold-400);
+}
+.golden-learn-boxes {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    margin-top: 20px;
 }

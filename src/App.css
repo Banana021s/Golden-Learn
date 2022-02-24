@@ -2,3 +2,8 @@
     display: flex;
     justify-content: center;
 }
+.container {
+    width: 100%;
+    max-width: 1920px;
+    padding: 20px 70px;
+}

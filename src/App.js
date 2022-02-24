@@ -8,7 +8,9 @@ function App() {
     <div>
       <Header />
       <main className="main">
-        <GoldenLearnSection />
+        <div className="container">
+          <GoldenLearnSection />
+        </div>
       </main>
     </div>
   )
