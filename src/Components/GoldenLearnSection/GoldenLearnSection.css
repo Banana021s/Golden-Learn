@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    max-width: 1920px;
+    padding: 20px 70px;
+}
+.goldenlearn-q-title {
+    color: var(--dark-500);
+}
+.goldenlearn-title {
+    color: var(--white-100);
+    font-size: 1.7rem;
+    margin-top: 10px;
+}
+.goldenlearn-title span {
+    color: var(--gold-400);
+}

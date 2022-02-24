@@ -37,7 +37,6 @@ function Header() {
                         <span className="mouse-cursor">
                             <Mouse size="32" color="#ffffff" variant="Broken"/>
                         </span>
-                        
                     </div>
                 </div>
             </div>
