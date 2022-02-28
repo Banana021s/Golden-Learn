@@ -1,6 +1,6 @@
 import GoldenLearnBox from "./../GoldenLearnBox/GoldenLearnBox"
 import "./GoldenLearnSection.css"
-import { Star } from "iconsax-react"
+import { Star, Message2, Teacher, TruckFast } from "iconsax-react"
 import clock from "./clock.png"
 import king from "./king.png"
 import rocket from "./rocket.png"
@@ -20,19 +20,25 @@ const GoldenLearnSection = () => {
                     width="250" 
                     height="250" 
                     title="Golden Support" 
-                    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." 
+                    icon={ <Message2 color="var(--gold-400" variant="Broken" /> }
+                />
                 <GoldenLearnBox 
                     img={king} 
                     width="320" 
                     height="250" 
                     title="Golden Educations" 
-                    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." 
+                    icon={ <Teacher color="var(--gold-400)" variant="Broken" /> }
+                />
                 <GoldenLearnBox 
                     img={rocket} 
                     width="250" 
                     height="250" 
                     title="Golden Progress" 
-                    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+                    text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." 
+                    icon={ <TruckFast color="var(--gold-400)" variant="Broken" /> }
+                />
             </div>
         </section>
     )

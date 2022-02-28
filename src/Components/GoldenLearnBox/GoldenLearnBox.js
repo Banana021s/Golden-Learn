@@ -1,17 +1,16 @@
 import "./GoldenLearnBox.css"
-import { Messages2 } from "iconsax-react"
 
 const GoldenLearnBox = (props) => {
-  const { img, width, height, title, text } = props
+  const { img, width, height, title, text, icon } = props
+  const GoldTitle = title.split(" ")[0]
+  const normalTitle = title.split(" ")[1]
 
   return (
     <div className="golden-learn-box">
       <img src={ img } alt="clock" style={{ width: `${width}px`, height: `${height}px` }} />
 
       <h1 className="golden-learn-box-title">
-        <Messages2 color="var(--gold-400)" variant="Broken"/>
-        <span> { title.split(" ")[0] } </span>
-        { title.split(" ")[1] }
+        { icon } <span> { GoldTitle } </span> { normalTitle }
       </h1>
 
       <p className="golden-learn-box-text">
