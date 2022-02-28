@@ -6,6 +6,12 @@
 .Nav-item {
     color: var(--white-400);
 }
+.Nav-item.active {
+    color: var(--gold-400);
+}
+.Nav-item.active a svg path {
+    stroke: var(--gold-400);
+}
 .Nav-item:nth-child(2) a {
     background: var(--dark-850);
     border: 1px solid var(--dark-800);

@@ -6,7 +6,7 @@ const GoldenLearnBox = (props) => {
 
   return (
     <div className="golden-learn-box">
-      <img src={ img } alt="clock" style={{ width: `${width}px`, height: `${height}px` }} /> { /* TODO FIX WITH AND HEIGHT */ }
+      <img src={ img } alt="clock" style={{ width: `${width}px`, height: `${height}px` }} />
 
       <h1 className="golden-learn-box-title">
         <Messages2 color="var(--gold-400)" variant="Broken"/>
