@@ -1,8 +1,12 @@
 .golden-learn-section {
-    margin-top: 25px;
+    position: relative;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
 }
 .goldenlearn-q-title {
     color: var(--dark-500);
+    z-index: 10;
 }
 .goldenlearn-title {
     color: var(--white-100);
@@ -11,6 +15,7 @@
     display: flex;
     align-items: center;
     column-gap: 8px;
+    z-index: 10;
 }
 .goldenlearn-title span {
     color: var(--gold-400);
@@ -20,4 +25,16 @@
     justify-content: space-between;
     column-gap: 40px;
     margin-top: 20px;
+}
+.shape {
+    position: absolute;
+    z-index: 1;
+}
+.shape_one {
+    top: -80px;
+    left: -230px;
+}
+.shape_two {
+    bottom: -150px;
+    right: -230px;
 }

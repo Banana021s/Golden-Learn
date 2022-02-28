@@ -4,10 +4,14 @@ import { Star } from "iconsax-react"
 import clock from "./clock.png"
 import king from "./king.png"
 import rocket from "./rocket.png"
+import shape from "./svg.svg"
 
 const GoldenLearnSection = () => {
     return (
         <section className="golden-learn-section">
+            <img src={ shape } alt="" className="shape shape_one" />
+            <img src={ shape } alt="" className="shape shape_two" />
+            
             <h5 className="goldenlearn-q-title">What special do we have ?</h5>
             <h1 className="goldenlearn-title"> <Star color="var(--gold-400)" size="30" variant="Broken"/> Why <span>Golden</span> learn ?</h1>
             <div className="golden-learn-boxes">
