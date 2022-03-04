@@ -2,6 +2,7 @@ import "./Header.css"
 import Navbar from './../Navbar/Navbar'
 import logo from "./logo.png"
 import { Bag2, SearchNormal1, Mouse, Notepad2, Call, Home2 } from "iconsax-react"
+import ContainerCard from "../ContainerCard/ContainerCard"
 import github from "./github.svg"
 
 const Header = () => {
@@ -25,7 +26,7 @@ const Header = () => {
 
     return (
         <header className="Header">
-            <div className="container">
+            <ContainerCard>
                 <Navbar titles={titles} />
                 <div className="Header-main-content">
                     <div className="Header-logo-wrap">
@@ -55,7 +56,7 @@ const Header = () => {
                         </span>
                     </div>
                 </div>
-            </div>
+            </ContainerCard>
         </header>
     )
 }
