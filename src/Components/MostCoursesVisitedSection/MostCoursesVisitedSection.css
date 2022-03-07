@@ -1,0 +1,22 @@
+.most-visited-courses {
+   margin-top: 150px;
+}
+.most-visited-q-title {
+   color: var(--dark-500);
+   z-index: 10;
+}
+.most-visited-title {
+   color: var(--white-100);
+   font-size: 1.8rem;
+   margin-top: 12px;
+   display: flex;
+   align-items: center;
+   column-gap: 8px;
+   z-index: 10;
+}
+.most-visited-courses-wrap {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 40px;
+   margin-top: 20px;
+}

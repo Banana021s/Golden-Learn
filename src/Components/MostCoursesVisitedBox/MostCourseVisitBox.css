@@ -1,0 +1,138 @@
+.most-visited-course-box {
+   margin-top: 80px;
+   position: relative;
+   background-color: var(--dark-870);
+   border: 1px solid var(--dark-840);
+   border-radius: 50px;
+   box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 24px;
+   max-width: 380px;
+   padding: 70px 30px 30px 30px ;
+   z-index: 1;
+   transition: .3s;
+}
+.most-visited-course-box:hover {
+   background: none;
+}
+.most-visited-course-box:hover .most-visited-course-box-logo {
+   box-shadow: rgba(0, 0, 0, 0.7) 0px 8px 24px;
+   top: -40px;
+}
+.most-visited-course-box-logo {
+   position: absolute;
+   top: -35px;
+   left: 60px;
+   width: 70px;
+   height: 70px;
+   padding: 5px;
+   background-color: var(--dark-870);
+   border: 1px solid var(--dark-840);
+   border-radius: 25px;
+   display: flex;
+   transition: .3s;
+}
+.most-visited-course-box-logo::before {
+   content: '';
+   position: absolute;
+   inset: 0;
+   width: 100%;
+   height: 100%;
+   background-color: var(--dark-950);
+   z-index: -1;
+   transform: scale(1.3);
+   border-radius: 25px;
+}
+.most-visited-course-box-logo img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index: 999;
+}
+.most-visited-course-title {
+   color:  var(--gold-400);
+   font-size: 1.5rem;
+   margin-left: 5px;
+}
+.most-visited-course-box-logo img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.most-visited-course-img-box {
+   position: relative;
+   width: 100%;
+   height: 240px;
+   margin-top: 20px;
+   border-radius: 25px;
+   overflow: hidden;
+}
+.most-visited-course-img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.most-visited-course-maker-box {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 20px;
+}
+.most-visited-course-maker-box::before {
+   content: '';
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+   height: 100%;
+   background: var(--black);
+   opacity: 0.8;
+}
+.most-visited-course-maker-box h3 {
+   color: var(--white-100);
+   display: flex;
+   align-items: center;
+   column-gap: 7px;
+}
+.most-visited-course-maker-box h3, .most-visited-course-rate {
+   z-index: 1;
+}
+.most-visited-course-rate {
+   display: flex;
+   column-gap: 3px;
+}
+.most-visited-course-explain-box {
+   margin-top: 25px;
+   padding-left: 5px;
+}
+.most-visited-course-explain-title {
+   margin-bottom: 10px;
+   font-size: 1.1rem;
+   color: var(--white-100);
+}
+.most-visited-course-explain-text {
+   color: var(--dark-500);
+   font-size: 0.9rem;
+   line-height: 20px;
+   margin-top: 13px;
+   width: 100%;
+   height: 40px;
+   overflow: hidden;
+}
+.most-visited-course-more-info-btn {
+   margin-top: 30px;
+   width: 100%;
+   padding: 10px 0;
+   border-radius: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 20px;
+   border: none;
+   color: var(--black);
+   background: var(--white-100);
+   font-size: 1.1rem;
+   cursor: pointer;
+}

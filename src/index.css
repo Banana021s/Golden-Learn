@@ -5,9 +5,12 @@
 :root {
   --white-100: #ffffff;
   --white-400: #cdcdcd;
+  --black: #000000;
   --dark-950: #0D0D14;
   --dark-900: #090812;
+  --dark-870: #13121B;
   --dark-850: #1E1E1E;
+  --dark-840: #21212B;
   --dark-800: #353535;
   --dark-780: #464743;
   --dark-500: #8B8B8B;
